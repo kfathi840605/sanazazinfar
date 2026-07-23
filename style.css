@@ -1,3 +1,40 @@
-body {
-    background: red !important;
+body{
+    margin:0;
+    background:#f8f4eb;
+    color:#333;
+    font-family:Tahoma,sans-serif;
+    line-height:1.8;
+}
+
+header{
+    text-align:center;
+    padding:60px 20px;
+}
+
+.profile{
+    width:220px;
+    height:220px;
+    border-radius:50%;
+    object-fit:cover;
+    border:6px solid #c8a96a;
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+}
+
+h1{
+    color:#b08d57;
+    font-size:42px;
+    margin-top:20px;
+}
+
+p{
+    font-size:20px;
+}
+
+section{
+    max-width:900px;
+    margin:40px auto;
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
 }
