@@ -92,6 +92,15 @@ footer{
     background:#8f6b32;
 }
 
+.book-img{
+    width:160px;
+    height:auto;
+    display:block;
+    margin:0 auto 20px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+
 @media (max-width:768px){
 
 .profile{
