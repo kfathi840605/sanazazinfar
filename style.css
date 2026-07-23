@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700&display=swap');
+
+body{
+    font-family:'Vazirmatn', sans-serif;
+    line-height:2;
+}
 body{
     margin:0;
     background:#f8f4eb;
@@ -126,4 +132,25 @@ section{
     display:block !important;
     margin:20px auto !important;
     border-radius:12px;
+}
+.book{
+    border:1px solid #eee;
+}
+
+.book h3{
+    font-size:22px;
+}
+
+a{
+    display:inline-block;
+    margin-top:15px;
+    padding:10px 20px;
+    background:#b08d57;
+    color:white;
+    border-radius:25px;
+    text-decoration:none;
+}
+
+a:hover{
+    opacity:.8;
 }
