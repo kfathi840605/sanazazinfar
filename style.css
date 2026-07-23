@@ -154,3 +154,12 @@ a{
 a:hover{
     opacity:.8;
 }
+.profile-img{
+    width:220px;
+    height:220px;
+    object-fit:cover;
+    border-radius:50%;
+    display:block;
+    margin:20px auto;
+    box-shadow:0 8px 25px rgba(0,0,0,.15);
+}
