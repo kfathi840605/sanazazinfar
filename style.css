@@ -93,8 +93,9 @@ footer{
 }
 
 .book-img{
-    width:160px;
-    height:auto;
+    width:120px !important;
+    height:180px !important;
+    object-fit:cover;
     display:block;
     margin:0 auto 20px;
     border-radius:12px;
