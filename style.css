@@ -119,3 +119,11 @@ section{
 }
 
 }
+.book-img{
+    width:120px !important;
+    max-width:120px !important;
+    height:auto !important;
+    display:block !important;
+    margin:20px auto !important;
+    border-radius:12px;
+}
