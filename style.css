@@ -3,6 +3,7 @@ body{
     background:#f8f4eb;
     color:#333;
     font-family:Tahoma,sans-serif;
+    line-height:1.9;
 }
 
 header{
@@ -21,9 +22,21 @@ header{
 
 h1{
     color:#b08d57;
-    margin-top:20px;
-    font-size:42px;
-    section{
+    font-size:44px;
+    margin:20px 0 10px;
+}
+
+.job{
+    font-size:22px;
+    color:#666;
+}
+
+.quote{
+    color:#8f6b32;
+    font-style:italic;
+}
+
+section{
     max-width:900px;
     margin:40px auto;
     padding:35px;
@@ -44,19 +57,39 @@ h2{
     border-radius:15px;
     padding:20px;
     margin:20px 0;
-    box-shadow:0 5px 15px rgba(0,0,0,.06);
-    transition:.3s;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    transition:transform .25s ease;
 }
 
 .book:hover{
-    transform:translateY(-4px);
+    transform:translateY(-5px);
 }
 
 .book h3{
-    color:#8f6b32;
     margin-top:0;
+    color:#8f6b32;
 }
 
-p{
-    font-size:20px;
+footer{
+    text-align:center;
+    padding:35px;
+    color:#777;
+}
+
+@media (max-width:768px){
+
+.profile{
+    width:170px;
+    height:170px;
+}
+
+h1{
+    font-size:34px;
+}
+
+section{
+    margin:20px;
+    padding:25px;
+}
+
 }
