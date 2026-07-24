@@ -253,3 +253,25 @@ html{
 .gallery img:hover{
     transform:scale(1.04);
 }
+.social-links{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-top:25px;
+}
+
+.social-links a{
+    background:#8f6b32;
+    color:white;
+    text-decoration:none;
+    padding:12px 25px;
+    border-radius:30px;
+    font-size:18px;
+    transition:.3s;
+}
+
+.social-links a:hover{
+    background:#c8a96a;
+    transform:scale(1.05);
+}
