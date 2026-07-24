@@ -208,3 +208,14 @@ nav.show{
 html{
     scroll-behavior:smooth;
 }
+.logo{
+    position: fixed;
+    top:20px;
+    left:20px;
+    z-index:1000;
+}
+
+.logo img{
+    width:65px;
+    height:auto;
+}
