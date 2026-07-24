@@ -186,23 +186,17 @@ nav a{
 nav a:hover{
     color:#c8a96a;
 }
-nav{
-    position: fixed;
-    right: -220px;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(255,255,255,.95);
-    padding: 15px;
-    border-radius: 15px;
-    display:flex;
-    flex-direction:column;
-    gap:15px;
-    transition:.4s;
-    z-index:999;
-}
 
-nav.show{
-    right:20px;
+nav{
+    position: sticky;
+    top:0;
+    background:#fff8ee;
+    padding:15px;
+    margin:20px auto;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    z-index:1000;
 }
 
 html{
