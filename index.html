@@ -165,5 +165,17 @@
 
 </footer>
 
+  <script>
+window.addEventListener("scroll", function () {
+    const nav = document.querySelector("nav");
+
+    if (window.scrollY > 200) {
+        nav.classList.add("show");
+    } else {
+        nav.classList.remove("show");
+    }
+});
+</script>
+  
 </body>
 </html>
