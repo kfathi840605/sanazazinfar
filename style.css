@@ -186,33 +186,33 @@ nav a{
 nav a:hover{
     color:#c8a96a;
 }
-
 nav{
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-  background:transparent;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    gap:18px;
-    padding:10px 0;
-    z-index:9999;
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    width: auto;
+    background: transparent;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+    padding: 0;
+    z-index: 9999;
 }
 
 nav a{
-    text-decoration:none;
-    color:#8f6b32;
-    font-size:15px;
-    font-weight:bold;
-    padding:6px 10px;
-    border-radius:8px;
-    transition:.3s;
+    text-decoration: none;
+    color: #8f6b32;
+    background: rgba(255,255,255,0.9);
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    transition: .3s;
 }
 
 nav a:hover{
-    background:#f3ead8;
+    background: #f3ead8;
 }
 
 html{
