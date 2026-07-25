@@ -163,56 +163,35 @@ a:hover{
     margin:20px auto;
     box-shadow:0 8px 25px rgba(0,0,0,.15);
 }
+
 nav{
-    background:#fff8ee;
-    padding:15px;
-    margin:20px auto;
-    border-radius:20px;
-    text-align:center;
-    box-shadow:0 5px 15px rgba(0,0,0,.08);
-    position:sticky;
-top:0;
-z-index:1000;
+    position:fixed;
+    top:10px;
+    left:50%;
+    transform:translateX(-50%);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:8px;
+    background:transparent;
+    padding:0;
+    z-index:9999;
 }
 
 nav a{
+    background:#ffffffcc;
     color:#8f6b32;
     text-decoration:none;
-    margin:0 12px;
+    padding:5px 10px;
+    border-radius:20px;
+    font-size:13px;
     font-weight:bold;
-    font-size:18px;
+    transition:.3s;
 }
 
 nav a:hover{
-    color:#c8a96a;
-}
-nav{
-    position: fixed;
-    top: 10px;
-    right: 20px;
-    width: auto;
-    background: transparent;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 8px;
-    padding: 0;
-    z-index: 9999;
-}
-
-nav a{
-    text-decoration: none;
-    color: #8f6b32;
-    background: rgba(255,255,255,0.9);
-    padding: 5px 10px;
-    border-radius: 10px;
-    font-size: 13px;
-    font-weight: bold;
-    transition: .3s;
-}
-
-nav a:hover{
-    background: #f3ead8;
+    background:#8f6b32;
+    color:#fff;
 }
 
 html{
@@ -220,7 +199,7 @@ html{
 }
 .logo{
     position: fixed;
-    top:20px;
+top:70px;
     left:20px;
     z-index:1000;
     background: rgba(255,255,255,.15);
